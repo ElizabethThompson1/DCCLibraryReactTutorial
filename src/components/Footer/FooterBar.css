@@ -1,9 +1,11 @@
-.titlebar-nav{
+.footerbar-nav {
     background-color: lightblue;
+    padding-top: 1rem;
     width: 100%;
-    text-align: center;
+
 }
-h1{
+
+h4 {
     padding-bottom: 0.2em;
     padding-left: 1em;
 }
