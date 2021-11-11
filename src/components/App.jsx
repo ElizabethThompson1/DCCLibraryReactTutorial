@@ -42,7 +42,7 @@ class App extends Component {
         return(
            <div className= "container-fluid">
                <TitleBar/>
-               <BookViewer book ={this.book[this.state.bookNumber]} nextBook={this.goToNextBook} previousBook ={this.goToPreviousBook}/>
+               <BookViewer book ={this.books[this.state.bookNumber]} nextBook={this.goToNextBook} previousBook ={this.goToPreviousBook}/>
            </div>
         )
     }
